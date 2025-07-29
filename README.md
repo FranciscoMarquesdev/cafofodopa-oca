@@ -20,7 +20,7 @@ Criar uma presença digital profissional e acolhedora para hotéis caninos, pet 
 ## 🚀 Funcionalidades
 
 - ✅ **Design Responsivo**: Perfeito em todos os dispositivos
-- ✅ **Animações CSS**: Efeitos visuais suaves e profissionais  
+- ✅ **Animações CSS**: Efeitos visuais suaves e profissionais
 - ✅ **Integração WhatsApp**: Reservas diretas via WhatsApp
 - ✅ **Galeria de Fotos**: Showcase do espaço e serviços
 - ✅ **Depoimentos**: Seção de avaliações de clientes
@@ -41,7 +41,7 @@ Criar uma presença digital profissional e acolhedora para hotéis caninos, pet 
 
 1. **Hero Section**: Apresentação principal com call-to-action
 2. **Serviços**: Cards com os serviços oferecidos
-3. **Galeria**: Fotos do espaço e instalações  
+3. **Galeria**: Fotos do espaço e instalações
 4. **Depoimentos**: Avaliações de clientes satisfeitos
 5. **Contato**: Informações e formulário de contato
 6. **Footer**: Links e informações adicionais
@@ -49,22 +49,27 @@ Criar uma presença digital profissional e acolhedora para hotéis caninos, pet 
 ## 📋 Como Usar
 
 ### 1. Clone o Repositório
+
 ```bash
 git clone https://github.com/FranciscoMarquesdev/cafofodopa-oca.git
 cd cafofodopa-oca
 ```
 
 ### 2. Personalize o Conteúdo
+
 - Edite `index.html` para alterar textos e informações
 - Modifique `styles.css` para ajustar cores e estilos
 - Substitua imagens na pasta `img/` pelas suas próprias
 
 ### 3. Configure o WhatsApp
+
 - Substitua o número `5585986327003` pelo seu número
 - Personalize as mensagens automáticas
 
 ### 4. Hospedagem
+
 O site é estático e pode ser hospedado em:
+
 - GitHub Pages
 - Netlify
 - Vercel
@@ -73,6 +78,7 @@ O site é estático e pode ser hospedado em:
 ## 🔧 Personalização
 
 ### Cores Principais
+
 ```css
 :root {
   --primary-color: #e8a928;
@@ -81,21 +87,10 @@ O site é estático e pode ser hospedado em:
 }
 ```
 
-### Contato WhatsApp
-```javascript
-// Substitua pelo seu número
-const whatsappNumber = "5585986327003";
-```
-
-## � Contato
-
-- **WhatsApp**: (85) 98632-7003
-- **Email**: cafofodopacoca@gmail.com
-- **Instagram**: [@cafofodopacoca](https://www.instagram.com/cafofodopacoca/)
-
 ## 👨‍💻 Desenvolvedor
 
 **Francisco Marques**
+
 - Estudante de Análise e Desenvolvimento de Sistemas
 - Especialista em desenvolvimento web front-end
 - GitHub: [@FranciscoMarquesdev](https://github.com/FranciscoMarquesdev)
