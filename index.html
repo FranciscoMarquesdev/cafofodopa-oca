@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafofo do Paçoca - Hotel Canino Infantil</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <div class="logo-icon">
+              <img class="imglogo" src="/img/logopaçoca.png" alt="" />
+            </div>
+            <div class="logo-text">
+              <h1>Cafofo do Paçoca</h1>
+              <p>Hotel Canino</p>
+            </div>
+          </div>
+
+          <nav class="nav desktop-nav">
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+            <button
+              class="btn-primary"
+              onclick="window.open('https://wa.me/5585986327003?text=Olá! Gostaria de fazer uma reserva no Cafofo do Paçoca para meu pet 🐕❤️', '_blank')"
+            >
+              <span class="heart">❤️</span>
+              Reservar
+            </button>
+          </nav>
+
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <nav class="mobile-nav" id="mobileNav">
+          <a href="#inicio">Início</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#contato">Contato</a>
+          <button
+            class="btn-primary"
+            onclick="window.open('https://wa.me/5585986327003?text=Olá! Gostaria de fazer uma reserva no Cafofo do Paçoca para meu pet 🐕❤️', '_blank')"
+          >
+            <span class="heart">❤️</span>
+            Reservar
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-decorations">
+        <div class="decoration ball">
+          <img class="brinquedo" src="/img/brinquedo.png" alt="brinquedo" />
+        </div>
+        <div class="decoration bone">🦴</div>
+        <div class="decoration house"></div>
+        <div class="decoration-toy">
+          <img class="imgtoy" src="/img/paçocacar.gif" alt="paçoca" />
+          <div class="smoke"></div>
+          <div class="linha"></div>
+        </div>
+        <div class="decoration star">⭐</div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="badge">
+              <span class="sparkle">✨</span>
+              O hotel mais divertido da cidade!
+            </div>
+
+            <h1 class="hero-title">
+              Bem-vindos ao
+              <span class="gradient-text">Cafofo do Paçoca</span>
+            </h1>
+
+            <p class="hero-description">
+              Um hotel canino mágico onde seu melhor amigo vive aventuras
+              incríveis! Diversão, conforto e muito amor em um ambiente seguro e
+              colorido.
+            </p>
+
+            <div class="hero-buttons">
+              <button
+                class="btn-primary large"
+                onclick="window.open('https://wa.me/5585986327003?text=Olá! Gostaria de fazer uma reserva no Cafofo do Paçoca para meu pet 🐕❤️', '_blank')"
+              >
+                <span class="heart">❤️</span>
+                Reservar
+              </button>
+              <button
+                class="btn-secondary large"
+                onclick="window.open('https://www.instagram.com/cafofodopacoca/reels/', '_blank')"
+              >
+                Conhecer o Hotel
+              </button>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <span>5.0 estrelas</span>
+              </div>
+              <div class="stat">
+                <span class="number">100+</span> cãezinhos felizes
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-mascot">
+            <div class="mascot-card">
+              <div class="mascot-content">
+                <div class="mascot-avatar">
+                  <img class="mascot" src="/img/imgpaçoca.png" alt="paçoca" />
+                </div>
+                <h3>Paçoca</h3>
+                <p>Nosso mascote oficial!</p>
+                <div class="mascot-icons">
+                  <span>🐾</span>
+                  <span>🦴</span>
+                  <span>❤️</span>
+                </div>
+              </div>
+            </div>
+            <div class="floating-elements">
+              <div class="floating-dot dot-1"></div>
+              <div class="floating-dot dot-2"></div>
+              <div class="floating-dot dot-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span class="heart">❤️</span>
+            Nossos Serviços
+          </div>
+          <h2>Tudo que seu pet precisa</h2>
+          <p>
+            Oferecemos uma experiência completa de cuidado, diversão e conforto
+            para que seu melhor amigo se sinta em casa.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon pink">🏠</div>
+            <h3>Hospedagem Aconchegante</h3>
+            <p>
+              Camas ortopédicas com ar-condicionado para o máximo conforto do
+              seu pet.
+            </p>
+            <ul>
+              <li>Camas ortopédicas</li>
+              <li>Ambiente climatizado</li>
+              <li>Monitoramento 24h</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon purple">🎮</div>
+            <h3>Brinquedoteca Mágica</h3>
+            <p>
+              Um paraíso de diversão com bolas, ossinhos de pelúcia e brinquedos
+              interativos.
+            </p>
+            <ul>
+              <li>Brinquedos seguros</li>
+              <li>Atividades supervisionadas</li>
+              <li>Socialização</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon blue">🛁</div>
+            <h3>Banho Especial</h3>
+            <p>
+              Serviço de spa canino com banho relaxante antes do retorno para
+              casa.
+            </p>
+            <ul>
+              <li>Produtos hipoalergênicos</li>
+              <li>Secagem profissional</li>
+              <li>Perfume canino</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon green">❄️</div>
+            <h3>Ambiente Climatizado</h3>
+            <p>Ar-condicionado para garantir o conforto térmico.</p>
+            <ul>
+              <li>Temperatura controlada</li>
+              <li>Ar purificado</li>
+              <li>Ambiente saudável</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon red">❤️</div>
+            <h3>Cuidado com Amor</h3>
+            <p>
+              Nossa equipe especializada trata cada pet com carinho e atenção
+              individual.
+            </p>
+            <ul>
+              <li>Equipe treinada</li>
+              <li>Atenção personalizada</li>
+              <li>Relatórios diários</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon yellow">⏰</div>
+            <h3>Flexibilidade Total</h3>
+            <p>
+              Horários flexíveis para atender suas necessidades, incluindo
+              finais de semana.
+            </p>
+            <ul>
+              <li>Horário estendido</li>
+              <li>Finais de semana</li>
+              <li>Feriados disponíveis</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="promo-banner">
+          <h3>🎉 Promoção Especial para Novos Clientes!</h3>
+          <p>
+            Ganhe 20% de desconto na primeira hospedagem + banho gratuito no
+            retorno!
+          </p>
+          <div class="promo-icons">
+            <span>🐕</span>
+            <span>💝</span>
+            <span>🛁</span>
+            <span>✨</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span>📷</span>
+            Nossa Galeria
+          </div>
+          <h2>Conheça nosso espaço</h2>
+          <p>
+            Um ambiente pensado especialmente para o bem-estar e diversão dos
+            nossos hóspedes caninos.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item pink">
+            <div class="gallery-emoji">
+              <img class="todos-cards" src="/img/img-sono.png" alt="" />
+            </div>
+            <h3>Suítes Aconchegantes</h3>
+            <p>Camas ortopédicas com ar-condicionado</p>
+          </div>
+
+          <div class="gallery-item purple">
+            <div class="gallery-emoji">
+              <img class="todos-cards" src="/img/briquedoteca.png" alt="" />
+            </div>
+            <h3>Brinquedoteca</h3>
+            <p>Diversão garantida com brinquedos seguros</p>
+          </div>
+
+          <div class="gallery-item blue">
+            <div class="gallery-emoji">
+              <img class="todos-cards" src="/img/img-banho.jpg" alt="" />
+            </div>
+            <h3>Área de Banho</h3>
+            <p>Spa canino com produtos especiais</p>
+          </div>
+
+          <div class="gallery-item green">
+            <div class="gallery-emoji">
+              <img class="todos-cards" src="/img/img-playgraud.jpg" alt="" />
+            </div>
+            <h3>Playground</h3>
+            <p>Espaço para brincadeiras e exercícios</p>
+          </div>
+
+          <div class="gallery-item yellow">
+            <div class="gallery-emoji">
+              <img class="todos-cards" src="/img/img-descanso.png" alt="" />
+            </div>
+            <h3>Área de Descanso</h3>
+            <p>Ambiente tranquilo para relaxar</p>
+          </div>
+
+          <div class="gallery-item red">
+            <div class="gallery-emoji">
+              <img class="todos-cards" src="/img/img-recpcao.jpg" alt="" />
+            </div>
+            <h3>Recepção</h3>
+            <p>Ambiente acolhedor para chegada e saída</p>
+          </div>
+        </div>
+
+        <div class="visit-banner">
+          <div class="visit-emoji">📸</div>
+          <h3>Quer ver mais fotos?</h3>
+          <p>
+            Agende uma visita e conheça pessoalmente nosso hotel! Ficaremos
+            felizes em mostrar todos os cantinhos especiais.
+          </p>
+          <div class="visit-hearts">
+            <span>❤️</span>
+            <span>Visitas são sempre bem-vindas!</span>
+            <span>❤️</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span>⭐</span>
+            Depoimentos
+          </div>
+          <h2>O que dizem nossos clientes</h2>
+          <p>
+            A felicidade dos pets e a tranquilidade dos tutores são nossa maior
+            recompensa.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="avatar">
+                <img
+                  class="avatar-img"
+                  src="/img/img-maria.png"
+                  alt="Maria Silva"
+                />
+              </div>
+              <div class="info">
+                <h4>Maria Silva</h4>
+                <p>Tutora do Bolinha</p>
+              </div>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "O Bolinha ficou 3 dias no Cafofo do Paçoca e voltou super feliz!
+              A equipe é maravilhosa e o ambiente é realmente mágico. Recomendo
+              de olhos fechados!"
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="avatar">
+                <img
+                  class="avatar-img"
+                  src="/img/img-joao.png"
+                  alt="João Santos"
+                />
+              </div>
+              <div class="info">
+                <h4>João Santos</h4>
+                <p>Tutor do Rex</p>
+              </div>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "Que lugar incrível! O Rex não queria nem vir embora. O banho que
+              ele tomou antes de voltar para casa estava perfeito. Voltaremos
+              com certeza!"
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="avatar">
+                <img
+                  class="avatar-img"
+                  src="/img/img-ana.png"
+                  alt="Ana Costa"
+                />
+              </div>
+              <div class="info">
+                <h4>Ana Costa</h4>
+                <p>Tutora da Luna</p>
+              </div>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "A Luna é muito tímida, mas se adaptou super bem. Recebi fotos
+              dela brincando na brinquedoteca todos os dias. Cuidado
+              excepcional!"
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="avatar">
+                <img
+                  class="avatar-img"
+                  src="/img/img-carlos.png"
+                  alt="Carlos Oliveira"
+                />
+              </div>
+              <div class="info">
+                <h4>Carlos Oliveira</h4>
+                <p>Tutor do Buddy</p>
+              </div>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "Ambiente limpo, seguro e muito divertido! O Buddy fez novos
+              amigos e se divertiu muito. A equipe é super atenciosa e
+              carinhosa."
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="avatar">
+                <img
+                  class="avatar-img"
+                  src="/img/img-fernanda.png"
+                  alt="Fernanda Lima"
+                />
+              </div>
+              <div class="info">
+                <h4>Fernanda Lima</h4>
+                <p>Tutora da Mel</p>
+              </div>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "Precisei viajar a trabalho e fiquei tranquila sabendo que a Mel
+              estava no Cafofo do Paçoca. Ela voltou relaxada e cheirosa!"
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="avatar">
+                <img
+                  class="avatar-img"
+                  src="/img/img-roberto.png"
+                  alt="Roberto Alves"
+                />
+              </div>
+              <div class="info">
+                <h4>Roberto Alves</h4>
+                <p>Tutor do Thor</p>
+              </div>
+            </div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>
+              "O Thor é um cão grande e energético, mas encontrou o espaço
+              perfeito para gastar energia. Adorou a brinquedoteca e fez muitos
+              amigos!"
+            </p>
+          </div>
+        </div>
+
+        <div class="stats-banner">
+          <div class="trophy">🏆</div>
+          <h3>Mais de 100 pets felizes!</h3>
+          <p>
+            Nossa missão é proporcionar momentos de alegria e tranquilidade para
+            pets e tutores.
+          </p>
+          <div class="stats">
+            <div class="stat">
+              <div class="number">100+</div>
+              <div class="label">Pets Atendidos</div>
+            </div>
+            <div class="stat">
+              <div class="number">5.0</div>
+              <div class="label">Avaliação Média</div>
+            </div>
+            <div class="stat">
+              <div class="number">100%</div>
+              <div class="label">Satisfação</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <span>❤️</span>
+            Entre em Contato
+          </div>
+          <h2>Vamos conversar?</h2>
+          <p>
+            Estamos aqui para esclarecer suas dúvidas e agendar a hospedagem do
+            seu melhor amigo!
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-form">
+            <div class="form-header">
+              <h3>📩 Envie uma mensagem</h3>
+            </div>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Seu nome</label>
+                  <input type="text" placeholder="Digite seu nome" required />
+                </div>
+                <div class="form-group">
+                  <label>Nome do pet</label>
+                  <input type="text" placeholder="Nome do seu pet" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Telefone</label>
+                  <input type="tel" placeholder="(85) 98632-7003" required />
+                </div>
+                <div class="form-group">
+                  <label>E-mail</label>
+                  <input
+                    type="email"
+                    placeholder="cafofodopacoca@gmail.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Mensagem</label>
+                <textarea
+                  placeholder="Conte-nos sobre seu pet e suas necessidades..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary large">
+                <span>❤️</span>
+                Enviar Mensagem
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-item">
+                <div class="info-icon pink">📍</div>
+                <div class="info-content">
+                  <h4>Localização</h4>
+                  <p>Rua das Flores, 123 - Vila Alegre</p>
+                  <p>São Paulo - SP, 01234-567</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <a
+                  href="https://wa.me/5585999999999?text=Olá! Gostaria de fazer uma reserva no Cafofo do Paçoca para meu pet 🐕❤️"
+                  target="_blank"
+                  class="info-icon blue"
+                >
+                  <img
+                    class="info-icon-img"
+                    src="/img/whatsapp.png"
+                    alt="Ícone de WhatsApp"
+                  />
+                </a>
+                <div class="info-content">
+                  <h4>WhatsApp</h4>
+                  <p>(85) 98632-7003</p>
+                  <p>Clique para fazer sua reserva!</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon green">
+                  <img
+                    class="info-icon-img"
+                    src="/img/gmail.png"
+                    alt="Ícone de Gmail"
+                  />
+                </div>
+                <div class="info-content">
+                  <h4>E-mail</h4>
+                  <p>cafofodopacoca@gmail.com</p>
+                  <p>Respondemos em até 2 horas</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon yellow">⏰</div>
+                <div class="info-content">
+                  <h4>Horário</h4>
+                  <p>Segunda a Sexta: 7h às 19h</p>
+                  <p>Sábados e Domingos: 8h às 18h</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="visit-card">
+              <div class="visit-emoji">🎉</div>
+              <h3>Primeira visita gratuita!</h3>
+              <p>
+                Venha conhecer nosso espaço e deixe seu pet se familiarizar com
+                o ambiente. Sem compromisso, apenas diversão!
+              </p>
+              <button class="btn-secondary">Agendar Visita</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-main">
+            <div class="footer-logo">
+              <div class="logo-icon">
+                <img class="imglogo" src="/img/logopaçoca.png" alt="" />
+              </div>
+              <div class="logo-text">
+                <h3>Cafofo do Paçoca</h3>
+                <p>Hotel Canino</p>
+              </div>
+            </div>
+            <p class="paragrafo">
+              Um lugar mágico onde seu melhor amigo vive aventuras incríveis!
+              Cuidamos com amor, carinho e muita diversão de cada hóspede
+              especial.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://wa.me/5585999999999?text=Olá! Gostaria de fazer uma reserva no Cafofo do Paçoca para meu pet 🐕❤️"
+                target="_blank"
+                class="social-link"
+                ><img class="icon-img" src="/img/whatsapp.png" alt="WhatsApp"
+              /></a>
+              <a
+                href="https://www.instagram.com/cafofodopacoca/reels/"
+                class="social-link"
+                ><img class="icon-img" src="/img/instagram.png" alt="Instagram"
+              /></a>
+              <a href="mailto:cafofodopacoca@gmail.com" class="social-link"
+                ><img class="icon-img" src="/img/gmail.png" alt="E-mail"
+              /></a>
+            </div>
+          </div>
+
+          <div class="footer-columns">
+            <div class="footer-services">
+              <h4>Serviços</h4>
+              <ul>
+                <li><a href="#">Hospedagem</a></li>
+                <li><a href="#">Brinquedoteca</a></li>
+                <li><a href="#">Banho</a></li>
+                <li><a href="#">Playground</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-contact">
+              <h4>Contato</h4>
+              <div class="contact-item">
+                <span>📍</span>
+                <div>
+                  <p>Rua das Flores, 123</p>
+                  <p>Vila Alegre - SP</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span>
+                  <a
+                    href="https://wa.me/5585999999999?text=Olá! Gostaria de fazer uma reserva no Cafofo do Paçoca para meu pet 🐕❤️"
+                    target="_blank"
+                  >
+                    <img
+                      class="icon-img"
+                      src="/img/whatsapp.png"
+                      alt="WhatsApp"
+                    />
+                  </a>
+                </span>
+                <p>(85) 98632-7003</p>
+              </div>
+              <div class="contact-item">
+                <span>
+                  <img class="icon-img" src="/img/gmail.png" alt="E-mail" />
+                </span>
+                <p>cafofodopacoca@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            © 2024 <span class="heart">Cafofo do Paçoca</span>. Todos os
+            direitos reservados.
+          </p>
+          <div class="footer-love">
+            <span>Feito com</span>
+            <span class="heart">❤️</span>
+            <span>para nossos amigos de quatro patas</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
