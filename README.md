@@ -18,8 +18,7 @@ Programa exclusivo e gratuito.
 <br>
 
 <p align="center">
-  <img alt="Cafofo do Paçoca
-Hotel Canino" src=".github/imgcafofo.png" width="100%">
+  <img alt="Hotel Canino" src=".github/imgcafofo.png" width="100%">
 </p>
 
 # 🐶 Cafofo do Paçoca – Hotel Canino
