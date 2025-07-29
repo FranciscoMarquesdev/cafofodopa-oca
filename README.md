@@ -35,7 +35,7 @@ Criar uma presença digital profissional e acolhedora para hotéis caninos, pet 
 
 ## � Demonstração
 
-🌐 **[Ver Site Online](https://franciscomarquesdev.github.io/cafofodopa-oca/)**
+🌐 **[Ver Site Online](https://cafofodopacoca.netlify.app/)**
 
 ## 🎨 Seções do Site
 
